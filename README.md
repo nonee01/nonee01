@@ -65,6 +65,42 @@ from, and that part I am happy to put in writing:
 
 ---
 
+### What the public half looks like
+
+The repositories that can be open, are. Each of these runs; the pictures come
+from running it.
+
+<p align="center">
+  <a href="https://github.com/nonee01/arthemis">
+    <img width="49%" src="https://raw.githubusercontent.com/nonee01/arthemis/main/docs/flyby.gif" alt="arthemis: a free-return lunar flyby, with the link dropping behind the Moon">
+  </a>
+  <a href="https://github.com/nonee01/cpp-dungeon">
+    <img width="49%" src="https://raw.githubusercontent.com/nonee01/cpp-dungeon/master/docs/playthrough.gif" alt="cpp-dungeon: a playthrough, one C++ feature per room">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/nonee01/schoolapp_watcher">
+    <img width="49%" src="https://raw.githubusercontent.com/nonee01/schoolapp_watcher/main/docs/media/02-explain.png" alt="schoolapp_watcher: the evaluation reglement, article by article">
+  </a>
+  <a href="https://github.com/nonee01/ict-defect-dashboard">
+    <img width="49%" src="https://raw.githubusercontent.com/nonee01/ict-defect-dashboard/master/docs/dashboard.png" alt="ict-defect-dashboard: defect rates and time to repair on an SMT line">
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    <a href="https://github.com/nonee01/arthemis">arthemis</a> ·
+    <a href="https://github.com/nonee01/cpp-dungeon">cpp-dungeon</a> ·
+    <a href="https://github.com/nonee01/schoolapp_watcher">schoolapp_watcher</a> ·
+    <a href="https://github.com/nonee01/ict-defect-dashboard">ict-defect-dashboard</a> ·
+    <a href="https://github.com/nonee01/calendar-organizer">calendar-organizer</a> ·
+    <a href="https://github.com/nonee01/ryanair_bot">ryanair_bot</a>
+  </sub>
+</p>
+
+---
+
 ### GitHub
 
 <p align="center">
