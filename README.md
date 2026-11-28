@@ -62,6 +62,7 @@ from, and that part I am happy to put in writing:
 | **Simulation and modelling** | Orbital trajectories and line-of-sight occultation, market backtesting, animated explanations of mathematics | Python, matplotlib, Streamlit, Plotly, NumPy |
 | **Web products** | Client work and interactive pieces, including a recruitment stand and several small products | React, Next.js, Tailwind, Node |
 | **Spot weld AOI** | An ENSAM inspection station: it photographs each resistance spot weld, measures it and sorts the specimen into OK or NOK, each specimen traceable to its tensile test. A CNN ensemble judges, a YOLO model learns from the operator's corrections, an electro-thermal model predicts the nugget | Python, PyTorch, YOLO, PySide6, Rust, Arduino |
+| **Pendule simple** | The simple pendulum and the stiff Van der Pol oscillator under explicit Euler, RK4, implicit Euler and Störmer-Verlet, compared on order, energy conservation and cost. The defence ran on a live application of six boards, from the spherical pendulum in 3D to chaos | Python, NumPy, SciPy, Matplotlib, PySide6 |
 | **Brake gear motor** | An ENSAM design-office project: the four connections that carry the output shafts, sized and toleranced, with the report, two A3 drawings and a STEP model for CATIA, and a script that re-checks every number before each build | FreeCAD, Blender, CATIA V5, LaTeX |
 | **Everyday automation** | Fare watching, scheduled mail, message routing, calendar prediction. Small things that run without being asked | Python, cron and systemd timers, third-party APIs |
 
@@ -91,11 +92,18 @@ from running it.
 </p>
 
 <p align="center">
+  <a href="https://github.com/nonee01/table-de-mixage">
+    <img width="49%" src="https://raw.githubusercontent.com/nonee01/table-de-mixage/construction/media/fenetre.png" alt="table-de-mixage: five channel strips with their blocks, and the live plot of the chosen channel">
+  </a>
+</p>
+
+<p align="center">
   <sub>
     <a href="https://github.com/nonee01/arthemis">arthemis</a> ·
     <a href="https://github.com/nonee01/cpp-dungeon">cpp-dungeon</a> ·
     <a href="https://github.com/nonee01/ict-defect-dashboard">ict-defect-dashboard</a> ·
     <a href="https://github.com/nonee01/calendar-organizer">calendar-organizer</a> ·
+    <a href="https://github.com/nonee01/table-de-mixage">table-de-mixage</a> ·
     <a href="https://github.com/nonee01/ryanair_bot">ryanair_bot</a>
   </sub>
 </p>
@@ -119,9 +127,12 @@ someone else's, the screenshots run on fabricated data and say so on the image.
   <img width="49%" src="media/spotweld-aoi.jpg" alt="Spot weld AOI: the station's window on an expelled weld, boxed, with the NOK verdict">
   <img width="49%" src="media/brake-gear-motor.jpg" alt="Brake gear motor: render of the motor, the gearbox housing and its output shaft">
 </p>
+<p align="center">
+  <img width="49%" src="media/pendule-simple-tour.gif" alt="Pendule simple: a tour of the live application's boards, from the spherical pendulum in 3D">
+</p>
 
 <p align="center">
-  <sub>Estate monitoring · Competition security platform · schoolapp_watcher · Practice platforms · Spot weld AOI · Brake gear motor</sub>
+  <sub>Estate monitoring · Competition security platform · schoolapp_watcher · Practice platforms · Spot weld AOI · Brake gear motor · Pendule simple</sub>
 </p>
 
 ---
@@ -161,6 +172,7 @@ someone else's, the screenshots run on fabricated data and say so on the image.
 | --- | --- |
 | [ict-defect-dashboard](https://github.com/nonee01/ict-defect-dashboard) | Dashboard for in-circuit-test defects on an SMT line. Per-component failure rate and reliability, an SPC control chart, heatmaps, and a resolution workflow with live updates. |
 | [calendar-organizer](https://github.com/nonee01/calendar-organizer) | Organises a course calendar into Google Calendar: colour assignment, validation with row numbers, statistics and splitting. |
+| [table-de-mixage](https://github.com/nonee01/table-de-mixage) | A mixing desk for the signal-processing lab: five channels, each with a limiter, a scream cut, spectral-subtraction noise removal and a three-band FIR equaliser, a live plot in time or frequency, and an Android phone as a Wi-Fi microphone. Rust and egui, with a Windows build that runs from a USB stick. |
 | [cpp-dungeon](https://github.com/nonee01/cpp-dungeon) | A terminal game in C++ that teaches eleven language features, one per room, in French. |
 | [SpaceArticle](https://github.com/nonee01/SpaceArticle) | A written piece on SPHEREx, Tiangong, Orbital Reef, Haven-1 and topological qubits, and why they are one story rather than five. |
 | [ryanair_bot](https://github.com/nonee01/ryanair_bot) | Fare watching against the Ryanair API. |
