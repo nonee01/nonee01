@@ -61,6 +61,8 @@ from, and that part I am happy to put in writing:
 | **School and study tooling** | An offline client for the results portal with the evaluation rules implemented from the official text, a grading helper, a timetable extractor, exam practice | Python, an HTTP API over a local store, Android, KDE Plasma |
 | **Simulation and modelling** | Orbital trajectories and line-of-sight occultation, market backtesting, animated explanations of mathematics | Python, matplotlib, Streamlit, Plotly, NumPy |
 | **Web products** | Client work and interactive pieces, including a recruitment stand and several small products | React, Next.js, Tailwind, Node |
+| **Spot weld AOI** | An ENSAM inspection station: it photographs each resistance spot weld, measures it and sorts the specimen into OK or NOK, each specimen traceable to its tensile test. A CNN ensemble judges, a YOLO model learns from the operator's corrections, an electro-thermal model predicts the nugget | Python, PyTorch, YOLO, PySide6, Rust, Arduino |
+| **Brake gear motor** | An ENSAM design-office project: the four connections that carry the output shafts, sized and toleranced, with the report, two A3 drawings and a STEP model for CATIA, and a script that re-checks every number before each build | FreeCAD, Blender, CATIA V5, LaTeX |
 | **Everyday automation** | Fare watching, scheduled mail, message routing, calendar prediction. Small things that run without being asked | Python, cron and systemd timers, third-party APIs |
 
 ---
@@ -80,11 +82,11 @@ from running it.
 </p>
 
 <p align="center">
-  <a href="https://github.com/nonee01/schoolapp_watcher">
-    <img width="49%" src="https://raw.githubusercontent.com/nonee01/schoolapp_watcher/main/docs/media/02-explain.png" alt="schoolapp_watcher: the evaluation reglement, article by article">
-  </a>
   <a href="https://github.com/nonee01/ict-defect-dashboard">
     <img width="49%" src="https://raw.githubusercontent.com/nonee01/ict-defect-dashboard/master/docs/dashboard.png" alt="ict-defect-dashboard: defect rates and time to repair on an SMT line">
+  </a>
+  <a href="https://github.com/nonee01/calendar-organizer">
+    <img width="49%" src="https://raw.githubusercontent.com/nonee01/calendar-organizer/main/docs/media/01-validate.png" alt="calendar-organizer: validation naming the rows that are wrong">
   </a>
 </p>
 
@@ -92,11 +94,34 @@ from running it.
   <sub>
     <a href="https://github.com/nonee01/arthemis">arthemis</a> ·
     <a href="https://github.com/nonee01/cpp-dungeon">cpp-dungeon</a> ·
-    <a href="https://github.com/nonee01/schoolapp_watcher">schoolapp_watcher</a> ·
     <a href="https://github.com/nonee01/ict-defect-dashboard">ict-defect-dashboard</a> ·
     <a href="https://github.com/nonee01/calendar-organizer">calendar-organizer</a> ·
     <a href="https://github.com/nonee01/ryanair_bot">ryanair_bot</a>
   </sub>
+</p>
+
+---
+
+### What the private half looks like
+
+The code stays closed, but the screens can be shown. Where the real data is
+someone else's, the screenshots run on fabricated data and say so on the image.
+
+<p align="center">
+  <img width="49%" src="media/estate-monitoring.jpg" alt="Estate monitoring: the Grafana view on a fabricated estate, every watched service with its state">
+  <img width="49%" src="media/ctf-platform.jpg" alt="Competition security platform: the admin terminal's monitor during an event, on fabricated data">
+</p>
+<p align="center">
+  <img width="49%" src="media/schoolapp-watcher.jpg" alt="schoolapp_watcher: the evaluation reglement applied article by article, on synthetic marks">
+  <img width="49%" src="media/practice-platforms.jpg" alt="Auto-graded practice platforms: the topic list of the Java platform">
+</p>
+<p align="center">
+  <img width="49%" src="media/spotweld-aoi.jpg" alt="Spot weld AOI: the station's window on an expelled weld, boxed, with the NOK verdict">
+  <img width="49%" src="media/brake-gear-motor.jpg" alt="Brake gear motor: render of the motor, the gearbox housing and its output shaft">
+</p>
+
+<p align="center">
+  <sub>Estate monitoring · Competition security platform · schoolapp_watcher · Practice platforms · Spot weld AOI · Brake gear motor</sub>
 </p>
 
 ---
@@ -134,7 +159,6 @@ from running it.
 
 | Repository | What it is |
 | --- | --- |
-| [schoolapp_watcher](https://github.com/nonee01/schoolapp_watcher) | Offline CLI for the ENSAM results portal. Local store, watch mode with snapshot diffing, the evaluation règlement implemented from the official text, CSV export, an HTTP API, plus Android and KDE clients. |
 | [ict-defect-dashboard](https://github.com/nonee01/ict-defect-dashboard) | Dashboard for in-circuit-test defects on an SMT line. Per-component failure rate and reliability, an SPC control chart, heatmaps, and a resolution workflow with live updates. |
 | [calendar-organizer](https://github.com/nonee01/calendar-organizer) | Organises a course calendar into Google Calendar: colour assignment, validation with row numbers, statistics and splitting. |
 | [cpp-dungeon](https://github.com/nonee01/cpp-dungeon) | A terminal game in C++ that teaches eleven language features, one per room, in French. |
@@ -146,6 +170,7 @@ from running it.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,20:7aa2f7,55:24283b,100:1a1b26&height=110&section=footer" width="100%" alt="footer">
 
 <p align="center">
+  <a href="https://yassine-elaidous.vercel.app"><img src="https://img.shields.io/badge/Portfolio-bb9af7?style=for-the-badge&labelColor=1a1b26&logo=vercel&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/yassine-el-aidous/"><img src="https://img.shields.io/badge/LinkedIn-7aa2f7?style=for-the-badge&labelColor=1a1b26&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <img src="https://komarev.com/ghpvc/?username=nonee01&style=for-the-badge&color=7AA2F7&label=PROFILE+VIEWS" alt="profile views">
 </p>
