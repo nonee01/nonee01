@@ -1,18 +1,15 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,45:24283b,80:7aa2f7,100:bb9af7&height=190&section=header&text=Yassine%20El%20Aidous&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Systems%20software%20%C2%B7%20ENSAM%20Mekn%C3%A8s&descAlignY=58&descSize=17" width="100%" alt="header">
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/yassine-el-aidous/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=620&lines=No+framework+where+the+JDK+will+do.;Suppression+is+harder+than+detection.;Two+lists+nobody+reconciles+are+one+list+plus+a+lie.;Wire+protocols%2C+by+hand%2C+on+purpose." alt="typing">
-  </a>
+  <img src="media/header.png" width="100%" alt="Yassine El Aidous. A technical plate in the style of the Pendule simple app: a plane pendulum coloured by its speed field, with hollow force arrows and its equation.">
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,rust,python,cpp,c,linux,postgres,bash,git,docker,nextjs&theme=dark&perline=11" alt="stack">
+  No framework where the JDK will do. Suppression is harder than detection.<br>
+  Two lists nobody reconciles are one list plus a lie. Wire protocols, by hand, on purpose.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Monitoring%20%26%20Alerting-7aa2f7?style=for-the-badge&labelColor=1a1b26" alt="focus">
-  <img src="https://img.shields.io/badge/Bias-Zero%20Dependencies-bb9af7?style=for-the-badge&labelColor=1a1b26" alt="bias">
+  <sub>JAVA · RUST · PYTHON · C++ · C · LINUX · POSTGRESQL · BASH · GIT · DOCKER · NEXT.JS</sub><br>
+  <sub>Monitoring and alerting first, with as few dependencies as the job allows.</sub>
 </p>
 
 ---
@@ -137,35 +134,6 @@ someone else's, the screenshots run on fabricated data and say so on the image.
 
 ---
 
-### GitHub
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nonee01&theme=tokyonight" alt="profile summary">
-</p>
-
-<p align="center">
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nonee01&theme=tokyonight" alt="repositories per language">
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nonee01&theme=tokyonight" alt="most committed language">
-</p>
-
-<p align="center">
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nonee01&theme=tokyonight" alt="stats">
-  <img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nonee01&theme=tokyonight&utcOffset=1" alt="productive time">
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=nonee01&theme=tokyonight&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D" alt="contribution streak">
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nonee01/nonee01/output/github-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/nonee01/nonee01/output/github-snake.svg" alt="contribution snake" width="100%">
-  </picture>
-</p>
-
----
-
 ### Readable repositories
 
 | Repository | What it is |
@@ -179,10 +147,7 @@ someone else's, the screenshots run on fabricated data and say so on the image.
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,20:7aa2f7,55:24283b,100:1a1b26&height=110&section=footer" width="100%" alt="footer">
-
 <p align="center">
-  <a href="https://yassine-elaidous.vercel.app"><img src="https://img.shields.io/badge/Portfolio-bb9af7?style=for-the-badge&labelColor=1a1b26&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/yassine-el-aidous/"><img src="https://img.shields.io/badge/LinkedIn-7aa2f7?style=for-the-badge&labelColor=1a1b26&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://komarev.com/ghpvc/?username=nonee01&style=for-the-badge&color=7AA2F7&label=PROFILE+VIEWS" alt="profile views">
+  <a href="https://yassine-elaidous.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/yassine-el-aidous/">LinkedIn</a><br>
+  <sub>© 2026 Yassine El Aidous (none)</sub>
 </p>
